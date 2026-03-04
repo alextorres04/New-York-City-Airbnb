@@ -1,1 +1,250 @@
 # New-York-City-Airbnb
+
+# 🏠 New York City Airbnb Data Visualization Project
+
+## 📌 Project Overview
+
+This project analyzes an Airbnb dataset using **Python, Pandas, and Matplotlib** to perform data cleaning, exploratory data analysis (EDA), and visualization.
+
+The goal is to understand pricing patterns, review behavior, and listing distribution across neighborhoods.
+
+---
+
+## 🛠 Technologies Used
+
+* Python
+* Pandas
+* Matplotlib
+
+---
+
+## 📂 Dataset
+
+The dataset used: `airbnb.csv`
+
+Main features analyzed:
+
+* `price`
+* `number_of_reviews`
+* `reviews_per_month`
+* `room_type`
+* `neighbourhood_group`
+
+---
+
+## 🔎 Data Cleaning Process
+
+The following steps were performed:
+
+1. Checked initial structure using:
+
+   * `head()`
+   * `info()`
+   * `describe()`
+
+2. Identified:
+
+   * Missing values
+   * Duplicate rows
+
+3. Handled missing values by:
+
+   * Filling numeric columns with their mean
+
+4. Removed:
+
+   * Remaining missing values
+   * Duplicate records
+
+---
+
+## 📊 Visualizations Created
+
+### 1️⃣ Price Distribution
+
+* Line plot of prices
+* Histogram showing price frequency
+
+### 2️⃣ Reviews Analysis
+
+* Histogram of number of reviews
+* Scatter plot: Price vs Number of Reviews
+
+### 3️⃣ Room Type Analysis
+
+* Bar chart showing average price by room type
+
+### 4️⃣ Neighborhood Analysis
+
+* Bar chart showing number of listings by borough (NYC)
+
+---
+
+## 📈 Key Insights
+
+* Price distribution shows high variability.
+* Some listings have many reviews but moderate pricing.
+* Entire homes tend to have higher average prices.
+* Manhattan has the highest number of listings.
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/alextorres04/New-York-City-Airbnb.git
+```
+
+2. Install dependencies:
+
+```bash
+pip install pandas matplotlib
+```
+
+3. Run the script:
+
+```bash
+python visualizations.py
+```
+
+---
+
+## 📌 Future Improvements
+
+* Add outlier detection
+* Apply price filtering
+* Add correlation analysis
+* Convert into interactive dashboard
+
+---
+
+## 👨‍💻 Author
+
+Alexander Torres
+Aspiring Data Analyst | Python & Data Visualization
+Airbnb Data Visualization Project
+
+## 📌 Project Overview
+
+This project analyzes an Airbnb dataset using **Python, Pandas, and Matplotlib** to perform data cleaning, exploratory data analysis (EDA), and visualization.
+
+The goal is to understand pricing patterns, review behavior, and listing distribution across neighborhoods.
+
+---
+
+## 🛠 Technologies Used
+
+* Python
+* Pandas
+* Matplotlib
+
+---
+
+## 📂 Dataset
+
+The dataset used: `airbnb.csv`
+
+Main features analyzed:
+
+* `price`
+* `number_of_reviews`
+* `reviews_per_month`
+* `room_type`
+* `neighbourhood_group`
+
+---
+
+## 🔎 Data Cleaning Process
+
+The following steps were performed:
+
+1. Checked initial structure using:
+
+   * `head()`
+   * `info()`
+   * `describe()`
+
+2. Identified:
+
+   * Missing values
+   * Duplicate rows
+
+3. Handled missing values by:
+
+   * Filling numeric columns with their mean
+
+4. Removed:
+
+   * Remaining missing values
+   * Duplicate records
+
+---
+
+## 📊 Visualizations Created
+
+### 1️⃣ Price Distribution
+
+* Line plot of prices
+* Histogram showing price frequency
+
+### 2️⃣ Reviews Analysis
+
+* Histogram of number of reviews
+* Scatter plot: Price vs Number of Reviews
+
+### 3️⃣ Room Type Analysis
+
+* Bar chart showing average price by room type
+
+### 4️⃣ Neighborhood Analysis
+
+* Bar chart showing number of listings by borough (NYC)
+
+---
+
+## 📈 Key Insights
+
+* Price distribution shows high variability.
+* Some listings have many reviews but moderate pricing.
+* Entire homes tend to have higher average prices.
+* Manhattan has the highest number of listings.
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/your-repo-name.git
+```
+
+2. Install dependencies:
+
+```bash
+pip install pandas matplotlib
+```
+
+3. Run the script:
+
+```bash
+python visualizations.py
+```
+
+---
+
+## 📌 Future Improvements
+
+* Add outlier detection
+* Apply price filtering
+* Add correlation analysis
+* Convert into interactive dashboard
+
+---
+
+## 👨‍💻 Author
+
+Alexander Torres
+Aspiring Data Analyst | Python & Data Visualization
